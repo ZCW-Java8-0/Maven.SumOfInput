@@ -7,11 +7,11 @@ public class Main {
 
     public static void main(String[] args){
 
-        Scanner myscanner = new Scanner(System.in);
+        Scanner myScanner = new Scanner(System.in);
 
         System.out.println("Please enter a number");
 
-        int n = myscanner.nextInt();
+        int n = myScanner.nextInt();
         int sum = 0;
 
         for(int i = 1; i <= n; i++){
